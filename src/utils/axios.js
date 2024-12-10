@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://nbm-shop-backend-4.onrender.com',
+  baseURL: 'https://nbm-shop-backend-5.onrender.com',
   headers: {
     'Content-Type': 'application/json'
   }
