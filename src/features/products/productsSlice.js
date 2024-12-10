@@ -14,7 +14,7 @@ export const fetchProducts = createAsyncThunk(
     try {
       console.log('Paramètres de requête :', { page, limit, category, nouveaute, promotion });
       
-      const response = await axios.get('/api/produits', {
+      const response = await axios.get('/api/products', {
         params: { page, limit, category, nouveaute, promotion }
       });
       
