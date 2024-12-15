@@ -3,7 +3,7 @@ import axios from 'axios';
 // Create an axios instance
 axios.get('/api/products', { params: { page: 1, limit: 10 } });
 const instance = axios.create({
-  baseURL: 'http://localhost:10000',
+  baseURL: 'https://nbm-shop-server.onrender.com',
   headers: {
     'Content-Type': 'application/json'
   }
